@@ -148,18 +148,22 @@ THE PURPOSE OF THE SPACE-PROGRAMMING-LANGUAGE IS TO CONSTRUCT OBJECTS TO USE TO 
 
 SYMBOLS FOR SPACE OBJECTS
 -------------------------
-LAYER 0.N1), POINTS SYMBOL = @, compile()
+LAYER 0.N1), POINTS SYMBOL = @, compile(), loop
 ===========
 SYMBOL = .
 
-LAYER 0.P1) , LINES SYMBOL = -, filter()
+LAYER 0.P1) , LINES SYMBOL = -, filter(), cycle
 ===========
 SYMBOL = ..
+
+
+------------------------------------------------
 
 LAYER 0 UNITS, MEANING SYMBOL = -_-_-
 =============
 0.N1) LEFT BOUNDARY  = [ = <,{,[,O,.... ALL LEFT SYMBOLS, bin()
 0.P1) RIGHT BOUNDARY = ] = >,},],O,.... ALL RIGHT SYMBOLS, bool()
+0) BOUNDARY = LEFT-BOUDARY + RIGHT-BOUNDARY, object()
 
 LAYER 1 UNITS, PARTICLES SYMBOL = ....
 =============
@@ -183,8 +187,8 @@ LAYER 4 UNITS, REALITIES, SYMBOL = ([|>|])
 =============
 10) SUBTRACTION    = - , abs()
 11) DIVISION       = / , pow()
-12) ADDITION       = + , create a list, list_name = []
-13) MULTIPLICATION = * , create a set, set_name = {}
+12) ADDITION       = + , create a list, list_name = [], multiply()
+13) MULTIPLICATION = * , create a set, set_name = {}, add()
 
 EX:
 
@@ -198,28 +202,66 @@ HOW DO YOU DRAW WITH THIS LANGUAGE AND INSTANTLY HAVE IT WORK AND STUFF?
 
 # LEVEL 5 UNITS, METHODS, INFORMATION = CREATION, DATA = UNITS, SYMBOL = ]|\/|[
 # --------------------------------------------------------------
-# 18) CONSTRUCTIONS/MADE THINGS FOR ENGINEERING/ART/MATH/ETC = & = (OBJECT) SUBTRACTION (OBJECT) AND (OBJECT) DIVISION (OBJECT), sort()
-# 19) FORMATIONS ( BIOLOGICAL CREATURES, DESIGNS, ETC. )     = $ = (OBJECT) MULTIPLICATION (OBJECT) OR (OBJECT) ADDITION (OBJECT), round()
-# 20) CREATIONS ( EVOLUTION, DREAMING, ETC. )                = ! = NOT (OBJECT) OR (OBJECT) SUBTRACTION (OBJECT) AND (OBJECT) ADDITION (OBJECT), len()
-# 21) BUILDINGS ( LEGO-BUILDING, ORGAN-CONSTRUCTION, ETC. )  = | = (OBJECT) DIVISION (OBJECT) NOT (OBJECT) ADDITION (OBJECT) AND (OBJECT) SUBTRACTION (OBJECT) OR (OBJECT) MULTIPLICATION (OBJECT), enumerate()
+# 14) CONSTRUCTIONS/MADE THINGS FOR ENGINEERING/ART/MATH/ETC = & = (OBJECT) SUBTRACTION (OBJECT) AND (OBJECT) DIVISION (OBJECT), sort()
+# 15) FORMATIONS ( BIOLOGICAL CREATURES, DESIGNS, ETC. )     = $ = (OBJECT) MULTIPLICATION (OBJECT) OR (OBJECT) ADDITION (OBJECT), round()
+# 16) CREATIONS ( EVOLUTION, DREAMING, ETC. )                = ! = NOT (OBJECT) OR (OBJECT) SUBTRACTION (OBJECT) AND (OBJECT) ADDITION (OBJECT), len()
+# 17) BUILDINGS ( LEGO-BUILDING, ORGAN-CONSTRUCTION, ETC. )  = | = (OBJECT) DIVISION (OBJECT) NOT (OBJECT) ADDITION (OBJECT) AND (OBJECT) SUBTRACTION (OBJECT) OR (OBJECT) MULTIPLICATION (OBJECT), enumerate()
 
 
 # LEVEL 6 UNITS, OPERATORS OF REALITY, |Y| = cardinality of Y, the size of Y, SYMBOL = {|_\}
 # -------------------------------------------------------------
-22) NOT O , O Not O  = S = (X,Y,Z,....,n) => ' => 3'3'3'3'3'3'3 => normal not, 3 units of objects multiplied 7 => O-number_representation*|S|, append()
-23) O OR O  = K = (x,y,...,n) => " -> 3"3  => " => 3"3"3"3"3"3"3 => 3 units of objects divided by 7 => O-number_representation/|K|, normal or, eval()
-24) O AND O = P = (x,y,...,n) => ? => 3^3^3  ^  => O-number_reprentation+|P| , normal and,  getattr()
-25) O NAND O = I = (x,y,z,...,n) => % => 3%3%3%3 => O-number_reprentation-|I| , normal nand, join()
+18) NOT O , O Not O  = S = (X,Y,Z,....,n) => ' => 3'3'3'3'3'3'3 => normal not, 3 units of objects multiplied 7 => O-number_representation*|S|, append()
+19) O OR O  = K = (x,y,...,n) => " -> 3"3  => " => 3"3"3"3"3"3"3 => 3 units of objects divided by 7 => O-number_representation/|K|, normal or, eval()
+20) O AND O = P = (x,y,...,n) => ? => 3^3^3  ^  => O-number_reprentation+|P| , normal and,  getattr()
+21) O NAND O = I = (x,y,z,...,n) => % => 3%3%3%3 => O-number_reprentation-|I| , normal nand, join()
 
 
 LAYER 7 UNITS, FORMS/SYMBOLS, FUNCTION FORMS FORMS, SYMBOL = |<O>|
 ==========================================
-16) EQUATION-1 = ATOM ADDITION ATOM = 2 = FUNCTOR, self defined python function
-17) EQUATION-COOL_NAME_SOUND = ... = self def function
+22) EQUATION-1 = ATOM ADDITION ATOM = 2 = FUNCTOR, self defined python function
+23) EQUATION-COOL_NAME_SOUND = ... = self def function
+
+# the formed operation described/written out is the form/symbol for its own function.
+
+'''
+# ---------------------------------------------
+'''
+0.1) bin()
+0.2) bool()
+0) object()
+1) sorted()
+2) print()
+3) input()
+4) lambda()
+5) type()
+6) sum()
+7) max()
+8) min()
+9) len()
+10) abs()
+11) pow()
+12) multiply()
+13) add()
+14) sort()
+15) round()
+16) len()
+17) enumerate()
+18) append()
+19) eval()
+20) getattr()
+21) join()
+22) EQUATION(1)
+23) EQUATION(COOL_NAME_SOUND)
 
 
 
 
+
+
+'''
+
+
+'''
 #### WITH THESE ELEMENTS OF REALITY ONE CAN CONSTRUCT ALL THINGS WHICH CAN BE SIMULATED AND DEFINED. EXPRESS YOUR OWN MEANING
 ###     FOR WHICH YOU WILL BECOME GRAND.
 
