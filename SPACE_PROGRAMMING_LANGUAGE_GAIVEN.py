@@ -206,10 +206,10 @@ HOW DO YOU DRAW WITH THIS LANGUAGE AND INSTANTLY HAVE IT WORK AND STUFF?
 
 # LEVEL 6 UNITS, OPERATORS OF REALITY, |Y| = cardinality of Y, the size of Y, SYMBOL = {|_\}
 # -------------------------------------------------------------
-22) NOT  = S = (X,Y,Z,....,n) => ' => 3'3'3'3'3'3'3 => 3 units of objects multiplied 7 => O-number_representation*|S|
-23) OR   = K = (x,y,...,n) => " -> 3"3  => " => 3"3"3"3"3"3"3 => 3 units of objects divided by 7 => O-number_representation/|K|
-24) AND  = P = (x,y,...,n) => ? => 3^3^3  ^  => O-number_reprentation+|P| 
-25) NAND = I = (x,y,z,...,n) => % => 3%3%3%3 => O-number_reprentation-|I|
+22) NOT O , O Not O  = S = (X,Y,Z,....,n) => ' => 3'3'3'3'3'3'3 => normal not, 3 units of objects multiplied 7 => O-number_representation*|S|
+23) O OR O  = K = (x,y,...,n) => " -> 3"3  => " => 3"3"3"3"3"3"3 => 3 units of objects divided by 7 => O-number_representation/|K|, normal or
+24) O AND O = P = (x,y,...,n) => ? => 3^3^3  ^  => O-number_reprentation+|P| , normal and
+25) O NAND O = I = (x,y,z,...,n) => % => 3%3%3%3 => O-number_reprentation-|I| , normal nand
 
 
 LAYER 7 UNITS, FORMS/SYMBOLS, FUNCTION FORMS FORMS, SYMBOL = |<O>|
