@@ -148,43 +148,43 @@ THE PURPOSE OF THE SPACE-PROGRAMMING-LANGUAGE IS TO CONSTRUCT OBJECTS TO USE TO 
 
 SYMBOLS FOR SPACE OBJECTS
 -------------------------
-LAYER 0.N1), POINTS SYMBOL = @
+LAYER 0.N1), POINTS SYMBOL = @, compile()
 ===========
 SYMBOL = .
 
-LAYER 0.P1) , LINES SYMBOL = -
+LAYER 0.P1) , LINES SYMBOL = -, filter()
 ===========
 SYMBOL = ..
 
 LAYER 0 UNITS, MEANING SYMBOL = -_-_-
 =============
-0.N1) LEFT BOUNDARY  = [ = <,{,[,O,.... ALL LEFT SYMBOLS
-0.P1) RIGHT BOUNDARY = ] = >,},],O,.... ALL RIGHT SYMBOLS
+0.N1) LEFT BOUNDARY  = [ = <,{,[,O,.... ALL LEFT SYMBOLS, bin()
+0.P1) RIGHT BOUNDARY = ] = >,},],O,.... ALL RIGHT SYMBOLS, bool()
 
 LAYER 1 UNITS, PARTICLES SYMBOL = ....
 =============
-1) ATOM    = A = _O_
-2) FUNCTOR = F = -O
-3) PROGRAM = P = [O]
-4) MACHINE = M = (O)
-5) SIGNAL  = X = ~O
+1) ATOM    = A = _O_, sorted()
+2) FUNCTOR = F = -O, print()
+3) PROGRAM = P = [O], input()
+4) MACHINE = M = (O), lambda()
+5) SIGNAL  = X = ~O, , type()
 
 LAYER 2 UNITS, UNIVERSES SYMBOL = >[|]<
 =============
-6) LAYER   = L = -O-
-7) SPACE   = S = **O
-8) REALITY = R = ^O^
+6) LAYER   = L = -O- = sum()
+7) SPACE   = S = **O = max()
+8) REALITY = R = ^O^ = min()
 
 LAYER 3 UNITS, THOUGHTS, SYMBOL = [O||]|
 =============
-9) OBJECT  = O
+9) OBJECT  = O, len()
 
 LAYER 4 UNITS, REALITIES, SYMBOL = ([|>|])
 =============
-10) SUBTRACTION    = - 
-11) DIVISION       = /
-12) ADDITION       = +
-13) MULTIPLICATION = *
+10) SUBTRACTION    = - , abs()
+11) DIVISION       = / , pow()
+12) ADDITION       = + , create a list, list_name = []
+13) MULTIPLICATION = * , create a set, set_name = {}
 
 EX:
 
@@ -198,24 +198,24 @@ HOW DO YOU DRAW WITH THIS LANGUAGE AND INSTANTLY HAVE IT WORK AND STUFF?
 
 # LEVEL 5 UNITS, METHODS, INFORMATION = CREATION, DATA = UNITS, SYMBOL = ]|\/|[
 # --------------------------------------------------------------
-# 18) CONSTRUCTIONS/MADE THINGS FOR ENGINEERING/ART/MATH/ETC = & = (OBJECT) SUBTRACTION (OBJECT) AND (OBJECT) DIVISION (OBJECT)
-# 19) FORMATIONS ( BIOLOGICAL CREATURES, DESIGNS, ETC. )     = $ = (OBJECT) MULTIPLICATION (OBJECT) OR (OBJECT) ADDITION (OBJECT)
-# 20) CREATIONS ( EVOLUTION, DREAMING, ETC. )                = ! = NOT (OBJECT) OR (OBJECT) SUBTRACTION (OBJECT) AND (OBJECT) ADDITION (OBJECT)
-# 21) BUILDINGS ( LEGO-BUILDING, ORGAN-CONSTRUCTION, ETC. )  = | = (OBJECT) DIVISION (OBJECT) NOT (OBJECT) ADDITION (OBJECT) AND (OBJECT) SUBTRACTION (OBJECT) OR (OBJECT) MULTIPLICATION (OBJECT)
+# 18) CONSTRUCTIONS/MADE THINGS FOR ENGINEERING/ART/MATH/ETC = & = (OBJECT) SUBTRACTION (OBJECT) AND (OBJECT) DIVISION (OBJECT), sort()
+# 19) FORMATIONS ( BIOLOGICAL CREATURES, DESIGNS, ETC. )     = $ = (OBJECT) MULTIPLICATION (OBJECT) OR (OBJECT) ADDITION (OBJECT), round()
+# 20) CREATIONS ( EVOLUTION, DREAMING, ETC. )                = ! = NOT (OBJECT) OR (OBJECT) SUBTRACTION (OBJECT) AND (OBJECT) ADDITION (OBJECT), len()
+# 21) BUILDINGS ( LEGO-BUILDING, ORGAN-CONSTRUCTION, ETC. )  = | = (OBJECT) DIVISION (OBJECT) NOT (OBJECT) ADDITION (OBJECT) AND (OBJECT) SUBTRACTION (OBJECT) OR (OBJECT) MULTIPLICATION (OBJECT), enumerate()
 
 
 # LEVEL 6 UNITS, OPERATORS OF REALITY, |Y| = cardinality of Y, the size of Y, SYMBOL = {|_\}
 # -------------------------------------------------------------
-22) NOT O , O Not O  = S = (X,Y,Z,....,n) => ' => 3'3'3'3'3'3'3 => normal not, 3 units of objects multiplied 7 => O-number_representation*|S|
-23) O OR O  = K = (x,y,...,n) => " -> 3"3  => " => 3"3"3"3"3"3"3 => 3 units of objects divided by 7 => O-number_representation/|K|, normal or
-24) O AND O = P = (x,y,...,n) => ? => 3^3^3  ^  => O-number_reprentation+|P| , normal and
-25) O NAND O = I = (x,y,z,...,n) => % => 3%3%3%3 => O-number_reprentation-|I| , normal nand
+22) NOT O , O Not O  = S = (X,Y,Z,....,n) => ' => 3'3'3'3'3'3'3 => normal not, 3 units of objects multiplied 7 => O-number_representation*|S|, append()
+23) O OR O  = K = (x,y,...,n) => " -> 3"3  => " => 3"3"3"3"3"3"3 => 3 units of objects divided by 7 => O-number_representation/|K|, normal or, eval()
+24) O AND O = P = (x,y,...,n) => ? => 3^3^3  ^  => O-number_reprentation+|P| , normal and,  getattr()
+25) O NAND O = I = (x,y,z,...,n) => % => 3%3%3%3 => O-number_reprentation-|I| , normal nand, join()
 
 
 LAYER 7 UNITS, FORMS/SYMBOLS, FUNCTION FORMS FORMS, SYMBOL = |<O>|
 ==========================================
-16) EQUATION-1 = ATOM ADDITION ATOM = 2 = FUNCTOR
-17) EQUATION-COOL_NAME_SOUND = ...
+16) EQUATION-1 = ATOM ADDITION ATOM = 2 = FUNCTOR, self defined python function
+17) EQUATION-COOL_NAME_SOUND = ... = self def function
 
 
 
