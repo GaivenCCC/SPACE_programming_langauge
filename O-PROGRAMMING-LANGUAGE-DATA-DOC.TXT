@@ -1,0 +1,23 @@
+
+TASK LIST:
+
+[ ] A feature of O-programming-language is to have a prolog like interface 
+    along with an option to choose which programming language  
+    to use and other "features" in the O-Programming-Language self 
+    gui.
+
+[[ ]] :: PROGRAMMING LANGAUGE LIST CURRENTLY PLANNING ON INTEGRATING ::
+
+[ ] > PYTHON
+[ ] > JAVA
+[ ] > C
+[ ] > C++
+[ ] > JAVASCRIPT
+[ ] > COMNET
+
+
+[[ ]] :: RESEARCH WRITING LANGUAGE ::
+
+[ ] > FEX
+[ ] > ORACLE
+[ ] >  LATEX
