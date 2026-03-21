@@ -237,6 +237,8 @@ EQUATION(OBJECT) = CALL EQUATION WITH OBJECT IN IT, SO CAN JUST INPUT EQUATION W
 '''
 0.1) bin()
 0.2) bool()
+
+
 0) object()
 
 
@@ -252,12 +254,16 @@ EQUATION(OBJECT) = CALL EQUATION WITH OBJECT IN IT, SO CAN JUST INPUT EQUATION W
 10) abs()
 11) pow()
 12) multiply()
-
 13) add()
+
+
+
 14) sort()
 15) round()
+
 16) len()
 17) enumerate()
+
 18) append()
 19) eval()
 20) getattr()
@@ -275,18 +281,25 @@ EQUATION(OBJECT) = CALL EQUATION WITH OBJECT IN IT, SO CAN JUST INPUT EQUATION W
 # TODO: CONTINUE MAKING THIS
 # MEMORY = STORED_DATA = SPACE + DATA = PROGRAM
 
+# level 7 is memory.
 MEMORY = []
 
+# level 17 is number
+NUMBER = None
 
-while(True):
+# level 3 is a program
+VARIABLE = None
 
-        try:
-                IDEA = input("O|=|> ")
+while(True): # bin
+
+        try: # bool
+                
+                IDEA = input("O|=|> ") # object
 
                 # TESTS OF IDEAS
                 if "_" and "_" in IDEA:
                         print("atom discovered")
-                        sorted()
+                        VARIABLE = sorted(MEMORY)
                         # AN ATOM
 
                 elif "-" in IDEA:
@@ -296,68 +309,112 @@ while(True):
 
                 elif "[" and "]" in IDEA:
                         print("program found")
-                        # input()
+                        # input() >>>
                         MEMORY.append(IDEA)
                         # AN PROGRAM
 
                 elif "(" and ")" in IDEA:
                         print("machine found")
-                        # lambda()
+                        # FUNCTION
+                        function = lambda IDEA: ( IDEA * IDEA ) # atom = op
+                        # function = map()
                         # AN MACHINE
 
                 elif "~" in IDEA:
                         print("signal found")
-                        type()
+                        TYPE = type(IDEA)
                         # AN SIGNAL
                         #  
                 elif "-" and "-" in IDEA:
-                        print("layer found")
-                        sum()
+                        print("layer/transformation found")
+                        transformation = sum(MEMORY)
                         # AN LAYER    
                                         
                 if "*" and "*" in IDEA:
                         print("space found")
-                        max()
+                        SPACE = max(NUMBER)
                         # AN SPACE
 
                 elif "^" and "^" in IDEA:
                         print("reality found")
-                        min()
+                        REALITY = min(NUMBER)
                         # AN REALITY
 
                 elif "(" and "||" in IDEA:
-                        print("object found")
-                        len()
+                        print("object/number found")
+                        NUMBER = len(IDEA)
                         # AN OBJECT
                         # "(["+"||]|"
                 
                 elif "|" and ">" in IDEA:
                         print("unit/data found")
-                        abs()
-                        # AN unit
+                        UNIT = abs(NUMBER)
+                        # time instance/unit
                         # "([|>|])"
 
                 elif ")|" and "<" in IDEA:
-                        print("reality found")
-                        pow()
-                        # AN REALITY
+                        print("SPACE-TIME UNIT/INSTANCE")
+                        INSTANCE = pow(NUMBER, NUMBER)
+                  
 
                 elif ")" and ")" in IDEA:
-                        print("object/information found")
-                        multiply()
-                        # AN OBJECT
-
-                        #"(["+"||]|"
-
-                elif "-" and "<>" in IDEA:
-                        print("unit found")
-                        add()
-                        # AN unit
-                        #"([|>|])"
+                        import math
+                        print("OBJECT-REALITY TIME EXISTANCE ELEMENT/ELEMENT")
+                        math.prod(MEMORY)
                 
-                # else: 
+                   
+                elif "&" in IDEA:
+                        print("MEANING")
+                        add()
+                        MEANING = MEMORY
+ 
+                elif "$" in IDEA:
+                        sort()
+                        print("CONSTRUCTION found")
+ 
+
+                elif "!" in IDEA:
+                        round()
+                        print("FORMATION found")
+                       
+              
+
+                elif "|" in IDEA:
+                        len()
+                        print("CREATION found")
+                       
+
+                  
+                elif ")" and ")" in IDEA:
+                        import math
+                        enumerate()
+                        print("BUILDING found")
+                       
+                
+                elif "'" in IDEA:
+                # NOT, append()
+                        MEMORY.pop(IDEA)
+
+                elif "\"\" in IDEA:
+                # OR, eval() 
+                        eval(MEMORY)
+
+                elif "?" in IDEA:
+                # AND, getattr()
+                        getattr(MEMORY)
+
+                elif "%" in IDEA:
+                # NAND, join()
+                        join(MEMORY)
+
+
+
+                                        
                 
                 # print(MEMORY)
+
+
+
 
 
         except:
