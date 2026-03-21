@@ -31,6 +31,10 @@ I6) OBJECTS CAN BE CHEMICAL ELEMENTS.
 I7) CAN DOWNLOAD OLIs FROM ONLY SO THAT ALL SPACE EXPLORERS CAN BETTER EXPLORE SPACE.
 I8) can program drawings into existance.
 I9) sell licensing to use the O-Programming-Language
+I10) A program that uploads all "concepts"/"object-forms" into the O-language.
+I11) ORACLE. THE O-PROGRAM LANUAGE IS A ORACLE.
+I12) CAN MAKE THE O-PROGRAMMING-LANGUAGE IN PROLOG.
+I13) BUILD THE O-PROGRAMMING-LANGUAGE ON TOP OF PROLOG.
 '''
 
 # SPACE PROGRAMMING LANGUAGE
@@ -355,18 +359,18 @@ while(True): # bin
                 elif ")|" and "<" in IDEA:
                         print("SPACE-TIME UNIT/INSTANCE")
                         INSTANCE = pow(NUMBER, NUMBER)
-                  
+                
 
                 elif ")" and ")" in IDEA:
                         import math
                         print("OBJECT-REALITY TIME EXISTANCE ELEMENT/ELEMENT")
-                        math.prod(MEMORY)
+                        math.prod(MEMORY, MEMORY)
                 
                    
                 elif "&" in IDEA:
                         print("MEANING")
-                        add()
-                        MEANING = MEMORY
+                        MEANING = math.add(IDEA, IDEA)
+                        # MEANING = MEMORY
  
                 elif "$" in IDEA:
                         sort()
@@ -395,7 +399,7 @@ while(True): # bin
                 # NOT, append()
                         MEMORY.pop(IDEA)
 
-                elif "\"\" in IDEA:
+                elif " " " in IDEA:
                 # OR, eval() 
                         eval(MEMORY)
 
@@ -405,7 +409,7 @@ while(True): # bin
 
                 elif "%" in IDEA:
                 # NAND, join()
-                        join(MEMORY)
+                        "".join(MEMORY)
 
 
 
